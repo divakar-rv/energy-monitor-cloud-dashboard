@@ -15,6 +15,10 @@ Spring Boot backend  --------------------->  Database (H2 locally / Postgres in 
    v
 React dashboard (live chart + current stats)
 ```
+Public URLs:
+
+Frontend: https://energy-monitor-cloud-dashboard.vercel.app
+Backend: https://energy-monitor-cloud-dashboard.onrender.com
 
 ## Why this project exists
 
