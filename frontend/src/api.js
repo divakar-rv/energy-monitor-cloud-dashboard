@@ -5,7 +5,7 @@
 // While developing locally, leave this as localhost. Once you deploy
 // the backend (see README), change this to your live Render/Railway URL,
 // e.g. "https://energy-monitor-backend.onrender.com"
-export const API_BASE = 'http://localhost:8082'
+export const API_BASE = 'https://energy-monitor-cloud-dashboard.onrender.com'
 
 export async function fetchRecentReadings() {
   const res = await fetch(`${API_BASE}/api/readings`)
